@@ -8,7 +8,7 @@ import css from "./profile.module.css";
    return (
     <div className={css.profile} key={id}>
   <div className={css.description}>
-    <img src={avatar} className={css.avatar} />
+    <img src={avatar} className={css.avatar} alt="imgavatar" />
     <p>{username}</p>
     <p>@{tag}</p>
          <p>{location}</p>
