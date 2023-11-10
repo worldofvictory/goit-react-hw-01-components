@@ -1,0 +1,36 @@
+
+ .profile {
+
+     display: inline-flex;
+     border-color: black;
+     background-color:coral;
+     /*gap: 120px;*/
+     width: 400px;
+ }
+
+.description {
+   /*background-color: blue;*/
+   display: inline-block;
+   padding: 30px;
+  flex-direction: row;
+}
+
+
+        .avatar {
+border-radius: 50%;
+height: 100px;
+width: 120px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+/*background-color: blueviolet;*/
+        }
+
+.stats {
+   display: inline-flex; 
+   gap: 50px;
+   background-color: beige;
+ padding: 90px;
+ margin: auto;
+ width: 800px;
+}
